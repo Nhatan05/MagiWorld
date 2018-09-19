@@ -10,7 +10,7 @@ public class MageTest {
     Mage m2 = new Mage(10, 0, 0, 10, 2);
 
     @Test
-    public void Given_GuerrierSelected_When_PlayersCreation_Then_DisplayTheScreamWord(){
+    public void Given_MzgeSelected_When_PlayersCreation_Then_DisplayTheScreamWord(){
         System.out.println(m1.cri());
         assertEquals("Abracadabra", m1.cri());
     }
